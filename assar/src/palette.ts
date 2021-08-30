@@ -13,7 +13,7 @@ export interface Palette {
   secondary: colorSet;
 }
 
-export const AppTheme: Record<Theme, Palette> = {
+export const APP_THEME: Record<Theme, Palette> = {
   Light: {
     background: '#f2f2f2',
     color: '#121414',
@@ -29,8 +29,8 @@ export const AppTheme: Record<Theme, Palette> = {
     }
   },
   Dark: {
-    background: '#f2f2f2',
-    color: '#121414',
+    background: '#121414',
+    color: '#f2f2f2f2',
     primary: {
       base: '#2196f3',
       highlight: '#6ec6ff',
